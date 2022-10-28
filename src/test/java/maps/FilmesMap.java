@@ -14,6 +14,7 @@ public class FilmesMap {
     private static Map<String, Object> plataforma;
     private static List<Map<String, Object>> listCategoria;
     private static List<Map<String, Object>> listPlataforma;
+
     public static Map<String, String> getHeader() {
         return header;
     }
@@ -83,5 +84,4 @@ public class FilmesMap {
         initPlataforma();
         initFilme();
     }
-
 }
