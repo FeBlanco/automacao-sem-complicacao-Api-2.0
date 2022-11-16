@@ -18,6 +18,7 @@ import utils.RestUtils;
 public class RunnerTest {
     @BeforeClass
     public static void beforeClass() throws Exception {
-        RestUtils.setBaseURI("http://localhost:8080/");
+        //  RestUtils.setBaseURI("http://localhost:8080/");
+        RestUtils.setBaseURI("http://localhost:8181/");
     }
 }
