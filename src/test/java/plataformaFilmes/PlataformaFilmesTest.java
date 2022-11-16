@@ -18,7 +18,7 @@ public class PlataformaFilmesTest {
     static String token;
     @Test
     public void validarLogin(){
-      //  RestUtils.setBaseURI("http://localhost:8080/");
+
 
         String json = "{" +
                 "    \"email\": \"aluno@email.com\"," +
@@ -34,7 +34,7 @@ public class PlataformaFilmesTest {
 
     @BeforeAll
     public static void validarLoginMap(){
-       // RestUtils.setBaseURI("http://localhost:8080/");
+
         LoginMap.initLogin();
 
         Response response = RestUtils.post(LoginMap.getLogin(), ContentType.JSON, "auth");
